@@ -29,11 +29,12 @@ A simple and elegant desktop weather application built with Python and Tkinter. 
    ```
 
 3. **Add your background image**
-   - Place your image in the `used_images` folder
-   - Update the `image_path` in the code:
+   - Place your image in the `used_images` folder inside the project directory.
+   - Update the `image_path` in the code to use a relative path:
      ```python
-     image_path = r"D:\Python Projects\pr-05\used_images\weather_image.png"
+     image_path = "used_images/weather_image.png"
      ```
+   - Make sure the image file is named `weather_image.png` or update the filename accordingly.
 
 4. **Run the app**
    ```bash
@@ -58,10 +59,10 @@ You can get a free API key by signing up at [openweathermap.org](https://openwea
 ## 📸 Screenshot
 
 ### 🌤️ Weather Result Display
-![Weather Result](project_ui/main_screen.png)
+![Weather Result](project_ui/weather_app_using_tkinter_01.png)
 
 ### 🌤️ Weather Result Display
-![Weather Result](project_ui/weather_result.png)
+![Weather Result](project_ui/weather_app_using_tkinter_02.png)
 
 ---
 
