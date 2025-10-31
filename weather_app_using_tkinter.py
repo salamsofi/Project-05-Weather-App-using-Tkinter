@@ -14,7 +14,7 @@ def func_get_weather():
         output_frame.pack(pady=10)
         return
     
-    api_key = "bfee43b016e8e47a8d4669b0de409b29"
+    api_key = "1234"
     api_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     server_data = requests.get(api_url)
